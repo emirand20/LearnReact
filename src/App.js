@@ -1,20 +1,16 @@
 import './App.css';
-import ShowHide from './Components/ShowHide'
-import Age from './Components/Age'
-import Botons from './Components/Botons'
-import ChangeColor from './Components/ChangeColor'
+import Aplicacion from './Components/Aplicacion'
+import Aplicacion1 from './Components/Aplicacion1'
 
 
 
 function App() {
   return (
     <div className="App">
-    <ShowHide />
-    <br/>
-    <Age />
-    <Botons />
-    <br/>
-    <ChangeColor />
+      <h1>3 EN RAYA</h1>
+      <Aplicacion />
+      <h1>*********</h1>
+      <Aplicacion1 />
     </div>
   );
 }
